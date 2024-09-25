@@ -145,15 +145,25 @@ st.write('\n')
 st.subheader("Coding History")
 st.write("---")
 
-st.write("🚀", "**codecademy.com | Python 2**")
-st.write("2022 October - December")
-st.image("https://i.im.ge/2024/03/17/RPZW5D.WhatsApp-Image-2024-02-21-at-22-02-13-7308a444-3.jpeg", width=400) + st.markdown('[PowerPoint](https://docs.google.com/presentation/d/1gO3TiF6HdYTqyM5ak7bD_DiMCHI0IC4C3h1sLWPnN58/edit?usp=sharing)')
+col1, col2 = st.columns([2, 1])  # Adjust column widths (2:1 ratio)
+
+# --- Column 1: Image ---
+with col1:
+    st.write("🚀", "**codecademy.com | Python 2**")
+    st.write("2022 October - December")
+    st.image("https://i.im.ge/2024/03/17/RPZW5D.WhatsApp-Image-2024-02-21-at-22-02-13-7308a444-3.jpeg", width=400)
+
+# --- Column 2: PowerPoint Link ---
+with col2:
+    st.markdown('[PowerPoint](https://docs.google.com/presentation/d/1gO3TiF6HdYTqyM5ak7bD_DiMCHI0IC4C3h1sLWPnN58/edit?usp=sharing)')
+
+# --- Write Text Under the Columns ---
 st.write(
     """
-- ► Embarking on my coding journey, I chose Codecademy for its free lessons and Python for its beginner-friendly language. 
-  Through Codecademy, I mastered key concepts like string manipulation, variable usage, and conditional statements. 
-  I'm eager to explore advanced subjects and enhance my programming skills further.
-"""
+    - ► Embarking on my coding journey, I chose Codecademy for its free lessons and Python for its beginner-friendly language. 
+      Through Codecademy, I mastered key concepts like string manipulation, variable usage, and conditional statements. 
+      I'm eager to explore advanced subjects and enhance my programming skills further.
+    """
 )
 
 st.write('\n')
