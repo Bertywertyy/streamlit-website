@@ -101,6 +101,7 @@ for platform, link in social_links.items():
 competition_links = {
     "🏆 2023 Indonesia GreenMech R4M Contest Second Place 🥈": "https://im.ge/i/WhatsApp-Image-2024-09-24-at-22-56-58-3991fd96.kOZVGz",
     "🏆 2023 World GreenMech Contest Third Place 🥉": "https://im.ge/i/WhatsApp-Image-2024-09-24-at-22-53-42-e05bfa37.kOZk76",
+    "🏆 1130310 梯次全國高級中等學校閱讀心得寫作比賽－甲等": "https://im.ge/i/D2689801-38B3-4D1C-BB41-9F3B12D9A2A2.kOZJ6X",
     "🏆 Sololearn Python Developer Completer": "https://api2.sololearn.com/v2/certificates/CC-QEP7COTQ/image/jpg",
 }
 
