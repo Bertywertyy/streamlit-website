@@ -148,7 +148,7 @@ st.write("---")
 st.write("🚀", "**codecademy.com | Python 2**")
 st.write("2022 October - December")
 st.image("https://i.im.ge/2024/03/17/RPZW5D.WhatsApp-Image-2024-02-21-at-22-02-13-7308a444-3.jpeg", width=600)
-st.write('[PowerPoint](https://docs.google.com/presentation/d/1gO3TiF6HdYTqyM5ak7bD_DiMCHI0IC4C3h1sLWPnN58/edit?usp=sharing)')
+st.markdown('[Tap me for PowerPoint](https://docs.google.com/presentation/d/1gO3TiF6HdYTqyM5ak7bD_DiMCHI0IC4C3h1sLWPnN58/edit?usp=sharing)')
 st.write(
     """
 - ► Embarking on my coding journey, I chose Codecademy for its free lessons and Python for its beginner-friendly language. 
@@ -161,7 +161,7 @@ st.write('\n')
 st.write("🚀", "**C++ & Kotlin | Arduino & Android Studio Code**")
 st.write("2023 October - December")
 st.image("https://i.im.ge/2024/03/17/RPZZg4.Android-Studio-UI-2.png", width=600)
-st.markdown('[CODES & VIDEOS](https://drive.google.com/drive/folders/1oBFK5lrnFQ8N7uUqWmrUaKHGkha6q5zG?usp=sharing)')
+st.markdown('[Tap me for CODES & VIDEOS](https://drive.google.com/drive/folders/1oBFK5lrnFQ8N7uUqWmrUaKHGkha6q5zG?usp=sharing)')
 st.write(
     """
 - ► I participated in a summer camp organized by Asia Eastern University of Science and Technology. 
@@ -172,7 +172,8 @@ st.write(
 st.write('\n')
 st.write("🚀", "**Harvard's CS50P | Python Fundamentals**")
 st.write("2024 February")
-st.image("https://i.im.ge/2024/03/17/RPZzJP.Screenshot-2024-03-17-162600-5.png", width=400)
+st.image("https://i.im.ge/2024/03/17/RPZzJP.Screenshot-2024-03-17-162600-5.png", width=600)
+st.markdown('[Tap me for CODES](https://drive.google.com/drive/folders/1tk4eW_ImJviEn380W4FlWtlAHXVFi0ha)')
 st.write(
     """
 - ► To solidify my Python skills, I enrolled in David Malan's Harvard CS50 course. 
@@ -183,7 +184,8 @@ st.write(
 st.write('\n')
 st.write("🎸", "**Side Quest | Mastering the Guitar**")
 st.write("2023 March - July")
-st.image("https://i.im.ge/2024/03/17/RP84rz.Screenshot-2024-03-17-172811.png", width=400)
+st.image("https://i.im.ge/2024/03/17/RP84rz.Screenshot-2024-03-17-172811.png", width=600)
+st.markdown('[Tap me for POWERPOINT](https://docs.google.com/presentation/d/1KmGS3T-ktMpbJn_gYj8aI7V_aNDvhbKuVnqqFCrnVB4/edit#slide=id.gba05e71233_1_0)')
 st.write(
     """
 - ► I began learning guitar and mastered basic chords, progressing to solos. 
