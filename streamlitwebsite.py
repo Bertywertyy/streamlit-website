@@ -26,13 +26,12 @@ class Competition:
 
 
 class Profile:
-    def __init__(self, name, description, email, phone, profile_pic, resume_file):
+    def __init__(self, name, description, email, phone, profile_pic):
         self.name = name
         self.description = description
         self.email = email
         self.phone = phone
         self.profile_pic = profile_pic
-        self.resume_file = resume_file
         self.social_media = []
         self.competitions = []
 
@@ -85,7 +84,6 @@ profile = Profile(
     email="marvinwilbert4@gmail.com",
     phone="(+62) 815 8690 9537",
     profile_pic=profile_pic,
-    resume_file=resume_file,
 )
 
 # --- ADD SOCIAL MEDIA ---
