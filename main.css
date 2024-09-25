@@ -1,14 +1,15 @@
+/* General Font Family */
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
-
 * {
     font-family: 'Readex Pro';
 }
 
+/* Link Styling */
 a {
     text-decoration: none;
     color: white !important;
     font-weight: 500;
-    font-size: 26px; /* Adjust the font size as needed */
+    font-size: 20px; /* Adjust the font size as needed */
 }
 
 a:hover {
@@ -16,16 +17,23 @@ a:hover {
     text-decoration: none;
 }
 
+/* Adjust Font Size for Email and Codecademy */
+.email, .codecademy {
+    font-size: 18px !important; /* Adjust the size as needed */
+}
+
+/* Remove List Bullet Points */
 ul {
     list-style-type: none;
 }
 
+/* Divider Line Adjustments */
 hr {
     margin-top: 0px;
     margin-bottom: 5%;
 }
 
-
+/* Hide Streamlit Menu and Footer */
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 header {visibility: hidden;}
