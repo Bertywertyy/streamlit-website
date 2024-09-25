@@ -70,8 +70,8 @@ st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
-css_file = current_dir / "styles" / "main.css"
-profile_pic = current_dir / "assets" / "profile-pic.png"
+css_file = current_dir / "main.css"
+profile_pic = current_dir / "profile-pic.png"
 
 # --- LOAD CSS, PDF & PROFILE PIC ---
 with open(css_file) as f:
