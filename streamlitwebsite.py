@@ -102,7 +102,7 @@ competition_links = {
     "🏆 2023 Indonesia GreenMech R4M Contest Second Place 🥈": "https://ibb.co/rtcqyFs",
     "🏆 2023 World GreenMech Contest Third Place 🥉": "https://ibb.co/TKhbtyY",
     "🏆 1130310 梯次全國高級中等學校閱讀心得寫作比賽－甲等": " ",
-    "🏆 Sololearn Phyton Developer completer": "https://api2.sololearn.com/v2/certificates/CC-QEP7COTQ/image/jpg",
+    "🏆 Sololearn Python Developer Completer": "https://api2.sololearn.com/v2/certificates/CC-QEP7COTQ/image/jpg",
 }
 
 for title, link in competition_links.items():
@@ -133,7 +133,7 @@ st.write('\n')
 st.subheader("Skills")
 st.write(
     """
-- 👩‍💻 Programming: Python , C++ 
+- 👩‍💻 Programming: Python, C++ 
 - 🎵 Music Instruments: Guitar, Piano, Drum
 - 💪 Sports: Basketball, Badminton, Soccer, Gym
 - 🎤 Professional High Schooler MC
@@ -147,6 +147,7 @@ st.write("---")
 
 st.write("🚀", "**codecademy.com | Python 2**")
 st.write("2022 October - December")
+st.image("https://i.im.ge/2024/03/17/RPZW5D.WhatsApp-Image-2024-02-21-at-22-02-13-7308a444-3.jpeg", width=400)
 st.write(
     """
 - ► Embarking on my coding journey, I chose Codecademy for its free lessons and Python for its beginner-friendly language. 
@@ -157,7 +158,8 @@ st.write(
 
 st.write('\n')
 st.write("🚀", "**C++ & Kotlin | Arduino & Android Studio Code**")
-st.write("-2023 October - December")
+st.write("2023 October - December")
+st.image("https://i.im.ge/2024/03/17/RPZZg4.Android-Studio-UI-2.png", width=400)
 st.write(
     """
 - ► I participated in a summer camp organized by Asia Eastern University of Science and Technology. 
@@ -167,7 +169,8 @@ st.write(
 
 st.write('\n')
 st.write("🚀", "**Harvard's CS50P | Python Fundamentals**")
-st.write("-2024 February")
+st.write("2024 February")
+st.image("https://i.im.ge/2024/03/17/RPZzJP.Screenshot-2024-03-17-162600-5.png", width=400)
 st.write(
     """
 - ► To solidify my Python skills, I enrolled in David Malan's Harvard CS50 course. 
@@ -177,7 +180,8 @@ st.write(
 
 st.write('\n')
 st.write("🎸", "**Side Quest | Mastering the Guitar**")
-st.write("-2023 March - July")
+st.write("2023 March - July")
+st.image("https://i.im.ge/2024/03/17/RP84rz.Screenshot-2024-03-17-172811.png", width=400)
 st.write(
     """
 - ► I began learning guitar and mastered basic chords, progressing to solos. 
