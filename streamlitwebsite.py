@@ -141,39 +141,54 @@ st.write(
 )
 
 # --- CODING HISTORY ---
-# --- PROFILE SECTIONS WITH IMAGES AND LINKS ---
+st.write('\n')
+st.subheader("Coding History")
+st.write("---")
 
-# 🎸 Side Quest | Mastering the Guitar
-st.markdown("### 🎸 Side Quest | Mastering the Guitar")
-st.write("**2023 March - July**")
-st.write("I've always had a desire to learn instruments beyond the piano, and the guitar quickly caught my attention. I began by mastering basic chords, then progressed to barre chords and solos. With the support of my teachers and friends, I had the opportunity to perform my favorite songs at the talent show, creating unforgettable memories along the way!")
-guitar_img = Image.open('guitar_performance.png')  # Replace with the correct image path
-st.image(guitar_img, caption="Guitar Performance")
-st.markdown("[View the PowerPoint](https://docs.google.com/presentation/d/1KmGS3T-ktMpbJn_gYj8aI7V_aNDvhbKuVnqqFCrnVB4/edit?usp=sharing)")
+st.write("🚀", "**codecademy.com | Python 2**")
+st.write("2022 October - December")
+st.image("https://i.im.ge/2024/03/17/RPZW5D.WhatsApp-Image-2024-02-21-at-22-02-13-7308a444-3.jpeg", width=400)
+st.write(
+    """
+- ► Embarking on my coding journey, I chose Codecademy for its free lessons and Python for its beginner-friendly language. 
+  Through Codecademy, I mastered key concepts like string manipulation, variable usage, and conditional statements. 
+  I'm eager to explore advanced subjects and enhance my programming skills further.
+"""
+)
 
-# 🚀 C++ & Kotlin | Arduino & Android Studio Code
-st.markdown("### 🚀 C++ & Kotlin | Arduino & Android Studio Code")
-st.write("**2023 October - December**")
-st.write("I had the opportunity to participate in a summer camp organized by the Asia Eastern University of Science and Technology. During the camp, I delved into the fundamentals of building Android applications using Android Studio. Additionally, I explored the intriguing world of machine learning, focusing specifically on Arduino. Engaging with machine learning was particularly enjoyable and added an exciting dimension to my learning experience.")
-android_img = Image.open('android_studio_ui.png')  # Replace with the correct image path
-st.image(android_img, caption="Android Studio UI")
-st.markdown("[View CODES & VIDEOS](https://drive.google.com/drive/folders/1oBFK5lrnFQ8N7uUqWmrUaKHGkha6q5zG?usp=sharing)")
+st.write('\n')
+st.write("🚀", "**C++ & Kotlin | Arduino & Android Studio Code**")
+st.write("2023 October - December")
+st.image("https://i.im.ge/2024/03/17/RPZZg4.Android-Studio-UI-2.png", width=400)
+st.write(
+    """
+- ► I participated in a summer camp organized by Asia Eastern University of Science and Technology. 
+  I explored the fundamentals of building Android applications and machine learning with Arduino, adding an exciting dimension to my learning experience.
+"""
+)
 
-# 🤖 Robotics Competition | National & International
-st.markdown("### 🤖 Robotics Competition | National & International")
-st.write("**2023 January - June**")
-st.write("As part of our school robotics team, I had the chance to compete nationally, where we placed third. This allowed us to represent Indonesia in a global competition, where we secured another third-place finish. The experience was eye-opening, pushing me to improve both my programming skills and teamwork abilities, while also igniting my passion for technology even further.")
-robotics_img = Image.open('robotics_competition.png')  # Replace with the correct image path
-st.image(robotics_img, caption="Robotics Competition")
-st.markdown("[View Competition Highlights](https://drive.google.com/drive/folders/1jK83hG_Competition_Folder?usp=sharing)")
+st.write('\n')
+st.write("🚀", "**Harvard's CS50P | Python Fundamentals**")
+st.write("2024 February")
+st.image("https://i.im.ge/2024/03/17/RPZzJP.Screenshot-2024-03-17-162600-5.png", width=400)
+st.write(
+    """
+- ► To solidify my Python skills, I enrolled in David Malan's Harvard CS50 course. 
+  I revisited Python fundamentals and explored more advanced concepts like loops, dictionaries, and unit tests.
+"""
+)
 
-# 🎓 Graduation Project | AI-powered Learning Platform
-st.markdown("### 🎓 Graduation Project | AI-powered Learning Platform")
-st.write("**2024 January - April**")
-st.write("For my high school graduation project, I developed an AI-powered learning platform designed to help students practice math and science topics through interactive problem-solving. The platform leverages machine learning to tailor the questions based on the student's progress and areas of improvement, offering a personalized learning experience. This project not only honed my coding skills but also deepened my understanding of AI technology.")
-ai_project_img = Image.open('ai_learning_platform.png')  # Replace with the correct image path
-st.image(ai_project_img, caption="AI-powered Learning Platform")
-st.markdown("[View Project Demo & Code](https://drive.google.com/drive/folders/1abcAI_Project_Folder?usp=sharing)")
+st.write('\n')
+st.write("🎸", "**Side Quest | Mastering the Guitar**")
+st.write("2023 March - July")
+st.image("https://i.im.ge/2024/03/17/RP84rz.Screenshot-2024-03-17-172811.png", width=400)
+st.write(
+    """
+- ► I began learning guitar and mastered basic chords, progressing to solos. 
+  I had the opportunity to perform at the talent show, creating unforgettable memories along the way!
+"""
+)
+
 
 # --- DISPLAY COMPETITIONS ---
 profile.display_competitions()
